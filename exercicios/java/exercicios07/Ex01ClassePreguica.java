@@ -1,0 +1,13 @@
+package exercicios07.java10092021Polimorfismoeherança;
+
+public class Ex01ClassePreguica extends Ex01ClasseAnimal {
+	public void sobeArvore() {
+		System.out.println("O bixo preguiça está subindo uma arvore!");
+	}
+
+	@Override
+	public void emitirSom() {
+		System.out.println("A preguiça está emitindo som!");
+	}
+
+}
