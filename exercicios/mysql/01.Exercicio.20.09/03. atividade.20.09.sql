@@ -3,6 +3,8 @@ informações dos estudantes deste registro dessa escola.*/
 
 CREATE DATABASE db_escola;
 
+USE db_escola;
+
 
 /*Crie uma tabela estudantes e utilizando a habilidade de abstração e determine 5 atributos
 relevantes dos estudantes para se trabalhar com o serviço dessa escola.*/
@@ -10,11 +12,10 @@ relevantes dos estudantes para se trabalhar com o serviço dessa escola.*/
 CREATE TABLE tb_estudantes (
 	id int(5) AUTO_INCREMENT,
 	Nome VARCHAR(30) not null,
-    	Sala int(10) not null,
+    Sala int(10) not null,
 	Materia VARCHAR(30) not null,
-    	Serie int(10) not null,
-    	Nota DECIMAL(10,2) not null,
-	    
+    Serie int(10) not null,
+    Nota DECIMAL(10,2) not null,
 	PRIMARY KEY (id)
  );
 
@@ -42,4 +43,4 @@ SELECT Nome, Materia, Nota FROM tb_estudantes WHERE nota < 7;
 
 /*Ao término atualize um dado desta tabela através de uma query de atualização.*/
 
-UPDATE tb_estudantes SET Nota = 10 WHERE id = 6;
+UPDATE tb_estudantes SET Nota = 9 WHERE id = 6;

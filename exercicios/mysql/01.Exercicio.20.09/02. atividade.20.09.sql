@@ -1,19 +1,21 @@
 /*Crie um banco de dados para um e commerce, onde o sistema trabalhará com as
 informações dos produtos deste ecommerce.*/
 
-create database db_ecommerce;
+CREATE DATABASE db_ecommerce;
+
+USE db_ecommerce;
 
 
 /*Crie uma tabela produtos e utilizando a habilidade de abstração e determine 5 atributos
 relevantes dos produtos para se trabalhar com o serviço deste ecommerce.*/
 
-create table tb_produtos (
-	id int(5) auto_increment,
-	tipo varchar(30) not null,
-	cor varchar(50) not null,
-	marca varchar(50),
-	tamanho int(10),
-	preco decimal(10,2),
+CREATE TABLE tb_produtos (
+	id INT(5) AUTO_INCREMENT,
+	tipo VARCHAR(30) NOT NULL,
+	cor VARCHAR(50) NOT NULL,
+	marca VARCHAR(50),
+	tamanho INT(10),
+	preco DECIMAL(10,2),
 	primary key (id)
 );
 
@@ -34,15 +36,15 @@ INSERT INTO tb_produtos(tipo, cor, marca, tamanho, preco) VALUES ("regata", "ama
 
 /*Faça um select que retorne os produtos com o valor maior do que 500.*/
 
-select tipo, preco from tb_produtos where preco > 500;
+SELECT tipo, preco FROM tb_produtos WHERE preco > 500;
 
 
 
 /*Faça um select que retorne os produtos com o valor menor do que 500.*/
 
-select tipo, preco from tb_produtos where preco < 500;
+SELECT tipo, preco FROM tb_produtos WHERE preco < 500;
 
 
 
 /*Ao término atualize um dado desta tabela através de uma query de atualização.*/
-update produtos set preco = 845.99 where id = 3;
+UPDATE tb_produtos SET preco = 845.99 WHERE id = 3;
