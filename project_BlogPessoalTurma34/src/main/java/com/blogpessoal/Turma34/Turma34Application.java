@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Turma34Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Turma34Application.class, args);
+		SpringApplication.run(Turma34Application.class, args)
 	}
 
 }
