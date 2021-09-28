@@ -1,10 +1,10 @@
-package org.generation.blogPessoal;
+package com.blogpessoal.Turma34;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BlogPessoalApplicationTests {
+class Turma34ApplicationTests {
 
 	@Test
 	void contextLoads() {
