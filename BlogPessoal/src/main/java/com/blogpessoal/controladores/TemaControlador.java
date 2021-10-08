@@ -1,4 +1,4 @@
-package com.blogpessoal.Turma34.controladores;
+package com.blogpessoal.controladores;
 
 import java.util.List;
 import java.util.Optional;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.blogpessoal.Turma34.modelos.Tema;
-import com.blogpessoal.Turma34.repositorios.TemaRepositorio;
+import com.blogpessoal.modelos.Tema;
+import com.blogpessoal.repositorios.TemaRepositorio;
 
 @RestController
 @RequestMapping("/api/v1/tema")

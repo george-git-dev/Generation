@@ -1,11 +1,11 @@
-package com.blogpessoal.Turma34.repositorios;
+package com.blogpessoal.repositorios;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.blogpessoal.Turma34.modelos.Tema;
+import com.blogpessoal.modelos.Tema;
 
 @Repository
 public interface TemaRepositorio extends JpaRepository<Tema, Long> {

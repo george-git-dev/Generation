@@ -1,4 +1,4 @@
-package com.blogpessoal.Turma34.modelos.dtos;
+package com.blogpessoal.modelos.dtos;
 
 /**
  * Classe Espelho para retornar credênciais para o sistema
@@ -8,7 +8,7 @@ package com.blogpessoal.Turma34.modelos.dtos;
  *
  */
 public class CredenciaisDTO {
-	
+
 	private Long idUsuario;
 	private String nome;
 	private String email;
@@ -54,5 +54,5 @@ public class CredenciaisDTO {
 	public void setToken(String token) {
 		this.token = token;
 	}
-	
+
 }

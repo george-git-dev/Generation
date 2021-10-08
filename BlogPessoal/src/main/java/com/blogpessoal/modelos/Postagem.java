@@ -1,4 +1,4 @@
-package com.blogpessoal.Turma34.modelos;
+package com.blogpessoal.modelos;
 
 import java.time.LocalDate;
 

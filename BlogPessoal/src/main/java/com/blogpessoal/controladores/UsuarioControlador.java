@@ -1,4 +1,4 @@
-package com.blogpessoal.Turma34.controladores;
+package com.blogpessoal.controladores;
 
 import java.util.List;
 
@@ -19,11 +19,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.blogpessoal.Turma34.modelos.Usuario;
-import com.blogpessoal.Turma34.modelos.dtos.CredenciaisDTO;
-import com.blogpessoal.Turma34.modelos.dtos.UsuarioLoginDTO;
-import com.blogpessoal.Turma34.repositorios.UsuarioRepositorio;
-import com.blogpessoal.Turma34.servicos.UsuarioServicos;
+import com.blogpessoal.modelos.Usuario;
+import com.blogpessoal.modelos.dtos.CredenciaisDTO;
+import com.blogpessoal.modelos.dtos.UsuarioLoginDTO;
+import com.blogpessoal.repositorios.UsuarioRepositorio;
+import com.blogpessoal.servicos.UsuarioServicos;
 
 @RestController
 @RequestMapping("/api/v1/usuario")

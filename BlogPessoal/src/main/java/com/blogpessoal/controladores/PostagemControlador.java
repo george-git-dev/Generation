@@ -1,4 +1,4 @@
-package com.blogpessoal.Turma34.controladores;
+package com.blogpessoal.controladores;
 
 import java.util.List;
 import java.util.Optional;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.blogpessoal.Turma34.modelos.Postagem;
-import com.blogpessoal.Turma34.repositorios.PostagemRepositorio;
+import com.blogpessoal.modelos.Postagem;
+import com.blogpessoal.repositorios.PostagemRepositorio;
 
 @RestController
 @RequestMapping("/api/v1/postagem")

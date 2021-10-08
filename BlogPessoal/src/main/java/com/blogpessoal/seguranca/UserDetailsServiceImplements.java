@@ -1,4 +1,4 @@
-package com.blogpessoal.Turma34.seguranca;
+package com.blogpessoal.seguranca;
 
 import java.util.Optional;
 
@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.blogpessoal.Turma34.modelos.Usuario;
-import com.blogpessoal.Turma34.repositorios.UsuarioRepositorio;
+import com.blogpessoal.modelos.Usuario;
+import com.blogpessoal.repositorios.UsuarioRepositorio;
 
 @Service
 public class UserDetailsServiceImplements implements UserDetailsService {

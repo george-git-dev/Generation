@@ -1,4 +1,4 @@
-package com.blogpessoal.Turma34.repositorios;
+package com.blogpessoal.repositorios;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.blogpessoal.Turma34.modelos.Usuario;
+import com.blogpessoal.modelos.Usuario;
 
 @Repository
 public interface UsuarioRepositorio extends JpaRepository<Usuario, Long> {

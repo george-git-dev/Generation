@@ -1,4 +1,4 @@
-package com.blogpessoal.Turma34.seguranca;
+package com.blogpessoal.seguranca;
 
 import java.util.Collection;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.blogpessoal.Turma34.modelos.Usuario;
+import com.blogpessoal.modelos.Usuario;
 
 public class UserDetailsImplements implements UserDetails {
 

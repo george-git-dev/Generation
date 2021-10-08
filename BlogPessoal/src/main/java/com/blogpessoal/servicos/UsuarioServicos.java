@@ -1,4 +1,4 @@
-package com.blogpessoal.Turma34.servicos;
+package com.blogpessoal.servicos;
 
 import java.nio.charset.Charset;
 import java.util.Optional;
@@ -11,10 +11,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.blogpessoal.Turma34.modelos.Usuario;
-import com.blogpessoal.Turma34.modelos.dtos.CredenciaisDTO;
-import com.blogpessoal.Turma34.modelos.dtos.UsuarioLoginDTO;
-import com.blogpessoal.Turma34.repositorios.UsuarioRepositorio;
+import com.blogpessoal.modelos.Usuario;
+import com.blogpessoal.modelos.dtos.CredenciaisDTO;
+import com.blogpessoal.modelos.dtos.UsuarioLoginDTO;
+import com.blogpessoal.repositorios.UsuarioRepositorio;
 
 @Service
 public class UsuarioServicos {

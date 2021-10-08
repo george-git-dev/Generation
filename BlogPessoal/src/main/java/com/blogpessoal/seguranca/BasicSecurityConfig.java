@@ -1,4 +1,4 @@
-package com.blogpessoal.Turma34.seguranca;
+package com.blogpessoal.seguranca;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
